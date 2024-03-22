@@ -1,2 +1,2 @@
-# James-Kwon-Portfolio-2023
- My personal portfolio 2023
+# James-Kwon-Portfolio-2024
+ My personal portfolio 2024
