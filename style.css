@@ -163,14 +163,20 @@ section {
 #profile {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
   height: 80vh;
 }
 
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
 .section-pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
   margin: auto 0;
 }
 
@@ -227,31 +233,31 @@ section {
   border-radius: 2rem;
 }
 
-.btn-colour-1,
-.btn-colour-2 {
+.btn-color-1,
+.btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-colour-1:hover,
-.btn-colour-2:hover {
+.btn-color-1:hover,
+.btn-color-2:hover {
   cursor: pointer;
 }
 
-.btn-colour-1,
-.btn-colour-2:hover {
+.btn-color-1,
+.btn-color-2:hover {
   background: rgb(53, 53, 53);
   color: white;
 }
 
-.btn-colour-1:hover {
+.btn-color-1:hover {
   background: rgb(0, 0, 0);
 }
 
-.btn-colour-2 {
+.btn-color-2 {
   background: none;
 }
 
-.btn-colour-2:hover {
+.btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
@@ -317,6 +323,28 @@ section {
 
 #projects {
   position: relative;
+}
+
+.projects-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.project-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
 }
 
 .color-container {
