@@ -5,13 +5,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body,
 html {
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 html {
@@ -326,8 +325,12 @@ section {
 
 #projects {
   position: relative;
-  padding: 2rem 0;
-  margin-bottom: 10rem;
+  padding: 6rem 0;
+  margin-bottom: 5rem;
+}
+
+#projects .title {
+  margin-bottom: 2rem;
 }
 
 .projects-sub-title {
@@ -339,22 +342,14 @@ section {
 
 .project-details-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
-}
-
-.project-row {
-  display: flex;
   justify-content: center;
-  gap: 2.5rem;
-  margin-top: 2rem;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .details-container {
-  width: calc(33.33% - 1.67rem);
-  max-width: 350px;
+  width: calc(33.33% - 1.34rem);
+  max-width: 400px;
   background: rgb(250, 250, 250);
   border-radius: 2rem;
   border: 1px solid rgb(163, 163, 163);
@@ -370,8 +365,8 @@ section {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -389,12 +384,15 @@ section {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
 }
 
 .projects-arrow {
   position: absolute;
   right: -5rem;
-  bottom: -27rem; /* Adjust the bottom value to lower it */
+  bottom: -25rem;
 }
 
 /* CONTACTS SECTION */
