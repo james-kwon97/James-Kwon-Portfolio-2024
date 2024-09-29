@@ -45,8 +45,10 @@
     width: calc(50% - 1rem);
   }
   .project-img {
-    width: 220px;
-    height: 220px;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
   }
   .project-btn {
     font-size: 0.9rem;
@@ -61,10 +63,6 @@
   .details-container {
     width: calc(50% - 0.75rem);
   }
-  .project-img {
-    width: 200px;
-    height: 200px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -73,11 +71,13 @@
   }
   .details-container {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
   }
   .project-img {
-    width: 180px;
-    height: 180px;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
   }
   .projects-sub-title {
     font-size: 1.5rem;
@@ -139,12 +139,11 @@
   .text-container {
     text-align: justify;
   }
-  .details-container {
-    max-width: 300px;
-  }
   .project-img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
   }
   .project-title {
     font-size: 1rem;

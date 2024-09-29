@@ -291,6 +291,10 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .arrow {
