@@ -19,7 +19,6 @@
   #mobile-nav {
     display: flex;
   }
-
   #profile,
   .section-container {
     display: block;
@@ -42,17 +41,63 @@
   .about-containers {
     margin-top: 0;
   }
+  .details-container {
+    width: calc(50% - 1rem);
+  }
+  .project-img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .project-btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
+  .project-details-container {
+    gap: 1.5rem;
+  }
+  .details-container {
+    width: calc(50% - 0.75rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-details-container {
+    gap: 1.5rem;
+  }
+  .details-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  .project-img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .projects-sub-title {
+    font-size: 1.5rem;
+  }
+  .project-title {
+    font-size: 1.2rem;
+  }
+  .project-btn {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
   #contact {
     height: 40vh;
   }
-
   footer {
     height: auto;
   }
-
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -60,7 +105,6 @@
   article {
     font-size: 1rem;
   }
-
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -72,9 +116,6 @@
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
-  }
-  .projects-sub-title {
-    font-size: 1.25rem;
   }
   .logo {
     font-size: 1.5rem;
@@ -97,5 +138,18 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .project-img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .project-title {
+    font-size: 1rem;
+  }
+  .project-btn {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
   }
 }
